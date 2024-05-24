@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Hexa",
+    "slug": "Hexa",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4EC5F9"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      },
+      "bundleIdentifier": "com.khacvux254.Hexa"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/favicon.png",
+        "backgroundColor": "#4EC5F9"
+      },
+      "package": "com.khacvux254.Hexa"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
